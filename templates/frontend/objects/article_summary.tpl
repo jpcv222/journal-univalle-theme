@@ -49,8 +49,7 @@ var=articlePath value=$article->getBestArticleId()} {if (!$section.hideAuthor &&
 	{/if}
 
 	<div class='pull-right meta'>
-		<font color='#DA251D'>
-			<span class="glyphicon glyphicon-stats" aria-hidden="true"></span> | </font>
+		<font color='#DA251D'>| </font>
 		<span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> {$article->getViews()} | {if $galleys} {foreach from=$galleys item=galley name=galleyList}
 		<span class="glyphicon glyphicon-download" aria-hidden="true"></span> {$galley->getGalleyLabel()} - {$galley->getViews()} | {/foreach} {/if}
 	</div>
