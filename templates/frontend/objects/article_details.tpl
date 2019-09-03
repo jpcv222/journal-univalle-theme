@@ -108,6 +108,7 @@
 							<a href="{$doiUrl}">
 								{$doiUrl}
 							</a>
+				
 						</span>
 					</div>
 				{/if}
@@ -320,6 +321,16 @@
 					</div>
 				</div>
 			{/if}
+
+			{foreach from=$pubIdPlugins item=pubIdPlugin}
+				{if $pubIdPlugin->getPubIdType() != 'doi'}
+					{php}continue;{/php}
+				{/if}
+				{assign var=pubId value=$article->getStoredPubId($pubIdPlugin->getPubIdType())}
+				{if $pubId}
+					<span class="__dimensions_badge_embed__" data-doi="{$pubId|escape}"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+				{/if}
+			{/foreach}
 
 			{* Article Galleys *}
 				<div class="item galleys">
