@@ -98,23 +98,23 @@
 
     {* Articles *}
     <div id="pdfs_numero_visible" class="sections col-md-9 col-lg-9">
-        {foreach name=sections from=$publishedArticles item=section}
-            <div class="section">
-                {if $section.articles}
-                    {if $section.title}
-                        <h2>
-                            {$section.title|escape}
-                        </h2>
-                    {/if}
-                    <ul class="articles">
-                        {foreach from=$section.articles item=article}
-                            <li>
-                                {include file="frontend/objects/article_summary.tpl"}
-                            </li>
-                        {/foreach}
-                    </ul>
-                {/if}
-            </div>
-        {/foreach}
+       {foreach name=sections from=$publishedSubmissions item=section}
+			<section class="section">
+				{if $section.articles}
+					{if $section.title}
+						<div class="page-header">
+							<h2>
+								<small>{$section.title|escape}</small>
+							</h2>
+						</div>
+					{/if}
+					<div class="media-list">
+						{foreach from=$section.articles item=article}
+							{include file="frontend/objects/article_summary.tpl"}
+						{/foreach}
+					</div>
+				{/if}
+			</section>
+		{/foreach}
     </div><!-- .sections -->
 </div>
