@@ -104,7 +104,7 @@
 					{if $section.title}
 						<div class="page-header">
 							<h2>
-								<small>{$section.title|escape}</small>
+								{$section.title|escape}
 							</h2>
 						</div>
 					{/if}
