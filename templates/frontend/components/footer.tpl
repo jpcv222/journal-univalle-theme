@@ -120,7 +120,7 @@
 
 <section class="home-copyright">
     <div class="container text-center">
-        Copyright 2015 <a href="/">Universidad del Valle</a> - <a href="/index.php/la-universidad/horarios-de-atencion"><p style="display:none">horarios-de-atencion</p>Horarios de atención</a> / Última Actualización: 24-08-2017	        </div>
+        Copyright 2015 <a href="https://www.univalle.edu.co">Universidad del Valle</a> - <a href="https://www.univalle.edu.co/index.php/la-universidad/horarios-de-atencion"><p style="display:none">horarios-de-atencion</p>Horarios de atención</a> / Última Actualización: 24-08-2017	        </div>
 </section>
 <!-- fin footer univalle -->
 </div><!-- pkp_structure_footer_wrapper -->
