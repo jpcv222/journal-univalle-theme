@@ -63,7 +63,7 @@
                                     <img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}"  usemap="#logo_map" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{else}alt="{translate key="common.pageHeaderLogo.altText"}"{/if} />
                                     <map name="logo_map">
                                         <area shape="rect" coords="0,0,82,126" alt="Sun" href="https://www.univalle.edu.co/">
-                                        <area shape="rect" coords="82,0,620,126" alt="Sun" href="http://revistas.univalle.edu.co/">
+                                        <area shape="rect" coords="82,0,620,126" alt="Sun" href="https://revistas.univalle.edu.co/">
                                     </map>
                                 {elseif $displayPageHeaderTitle && !$displayPageHeaderLogo && is_string($displayPageHeaderTitle)}
                                     <a href="{$homeUrl}" class="is_text">{$displayPageHeaderTitle}</a>
@@ -101,7 +101,7 @@
 
         <nav class="pkp_navigation_user_wrapper navDropdownMenu" id="navigationUserWrapper" aria-label="{translate|escape key="common.navigation.user"}">
             <ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
-                <li class="gris_blanco_amx"><a href="http://revistas.univalle.edu.co">Inicio</a></li>
+                <li class="gris_blanco_amx"><a href="https://revistas.univalle.edu.co">Inicio</a></li>
 
                 {if $isUserLoggedIn}
                     <li class="profile {if $unreadNotificationCount} has_tasks{/if}" aria-haspopup="true" aria-expanded="false">
