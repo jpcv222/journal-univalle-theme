@@ -72,7 +72,7 @@
                             {assign var="altText" value=$journal->getLocalizedSetting('journalThumbnailAltText')}
                             <div class="thumb">
                                 <a href="{$url|escape}">
-                                    <img src="http://revistas.univalle.edu.co/public/site/sa2.png"{if $altText} alt="{$altText|escape}"{/if}>
+                                    <img src="https://revistas.univalle.edu.co/public/site/sa2.png"{if $altText} alt="{$altText|escape}"{/if}>
                                 </a>
                             </div>
 

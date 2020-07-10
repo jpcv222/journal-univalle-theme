@@ -39,7 +39,7 @@
                 <!-- aqui fue -->
                 <div id="contenido_nombre_sitio" >
                     <div id="logo_univalle">
-                        <a href="http://www.univalle.edu.co/"><div id="link_home"></div></a>
+                        <a href="https://www.univalle.edu.co/"><div id="link_home"></div></a>
                     </div>
                     <div id="nombre_sitio">
                         {* Logo or site title. Only use <h1> heading on the homepage.
