@@ -95,13 +95,13 @@
             <div class="row">
                 <div class=" col-sm-6 col-md-6 col-lg-6">
                     <ul class="redes_sociales_foot">
-                        <li><a href="https://www.facebook.com/universidaddelvalle" target="_blank"><img src="http://www.univalle.edu.co/images/footericons/facebook.png" alt="facebook" title="facebook" longdesc="https://twitter.com/univallecol" class="img-responsive"></a>
+                        <li><a href="https://www.facebook.com/universidaddelvalle" target="_blank"><img src="https://www.univalle.edu.co/images/footericons/facebook.png" alt="facebook" title="facebook" longdesc="https://twitter.com/univallecol" class="img-responsive"></a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/user/universidaddelvalle1" target="_blank"><img src="http://www.univalle.edu.co/images/footericons/youtube.png" alt="youtube" title="youtube" longdesc="https://twitter.com/univallecol" class="img-responsive"></a>
+                            <a href="https://www.youtube.com/user/universidaddelvalle1" target="_blank"><img src="https://www.univalle.edu.co/images/footericons/youtube.png" alt="youtube" title="youtube" longdesc="https://twitter.com/univallecol" class="img-responsive"></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/univallecol" target="_blank"><img src="http://www.univalle.edu.co/images/footericons/twitter.png" alt="twitter" title="twitter" longdesc="https://twitter.com/univallecol" class="img-responsive"></a>
+                            <a href="https://twitter.com/univallecol" target="_blank"><img src="https://www.univalle.edu.co/images/footericons/twitter.png" alt="twitter" title="twitter" longdesc="https://twitter.com/univallecol" class="img-responsive"></a>
                         </li>
                     </ul>
                 </div>
